@@ -14,26 +14,26 @@ import { sectionOrder, Section } from "@/data/section-order";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#FFFCF8]">
+    <div className="min-h-screen bg-white">
       {/* Don't have a great call on whether max-w-screen-xl is better */}
-      <div className="max-w-screen-lg mx-auto px-8 py-24">
+      <div className="max-w-screen-lg mx-auto px-8 md:px-16 py-16 md:py-24">
         {/* Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-2">
           {/* Left Column - Fixed Info */}
           <div className="col-span-12 md:col-span-4 space-y-12 mb-8 md:mb-0">
             {/* Profile */}
-            <div className="md:sticky top-12 space-y-8">
+            <div className="md:sticky top-16 md:top-24 space-y-8">
               <ProfileSection aboutMe={aboutMe} />
             </div>
           </div>
 
           {/* Right Column - Scrolling Content */}
-          <div className="col-span-12 md:col-span-7 md:col-start-6 space-y-24">
+          <div className="col-span-12 md:col-span-7 md:col-start-6 space-y-12">
             {/* About section is typically first */}
             {aboutMe.description && (
               <section>
                 <p
-                  className="font-serif text-sm leading-relaxed text-zinc-700 [&_a]:underline [&_a]:text-zinc-900 [&_a:hover]:text-zinc-600"
+                  className="font-serif text-m leading-relaxed text-zinc-700 [&_a]:underline [&_a]:text-zinc-900 [&_a:hover]:text-zinc-600"
                   dangerouslySetInnerHTML={{ __html: aboutMe.description }}
                 />
               </section>
@@ -47,7 +47,7 @@ export default function Home() {
                   return (
                     newsData.length > 0 && (
                       <section key={sectionName}>
-                        <h2 className="font-serif text-l mb-12 tracking-wide uppercase">
+                        <h2 className="font-serif text-l mb-6 tracking-wide uppercase">
                           News
                         </h2>
                         <div className="space-y-12">
@@ -64,7 +64,7 @@ export default function Home() {
                   return (
                     educationData.length > 0 && (
                       <section key={sectionName}>
-                        <h2 className="font-serif text-zinc-700 mb-12 tracking-wide uppercase">
+                        <h2 className="font-serif text-zinc-700 mb-6 tracking-wide uppercase">
                           Education
                         </h2>
                         <div className="space-y-12">
@@ -79,7 +79,7 @@ export default function Home() {
                   return (
                     publicationData.length > 0 && (
                       <section key={sectionName}>
-                        <h2 className="font-serif text-l mb-12 tracking-wide uppercase">
+                        <h2 className="font-serif text-l mb-6 tracking-wide uppercase">
                           Publications
                         </h2>
                         <div className="space-y-12">
@@ -99,7 +99,7 @@ export default function Home() {
                   return (
                     experienceData.length > 0 && (
                       <section key={sectionName}>
-                        <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
+                        <h2 className="font-serif text-md mb-6 tracking-wide uppercase">
                           Experience
                         </h2>
                         <div className="space-y-12">
@@ -117,7 +117,7 @@ export default function Home() {
                   return (
                     portfolioData.length > 0 && (
                       <section key={sectionName}>
-                        <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
+                        <h2 className="font-serif text-md mb-6 tracking-wide uppercase">
                           Portfolio
                         </h2>
                         <div className="space-y-12">

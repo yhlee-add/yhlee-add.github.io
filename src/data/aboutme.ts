@@ -18,22 +18,28 @@ export interface AboutMe {
 }
 
 export const aboutMe: AboutMe = {
-  name: "Jane R. Smith",
-  title: "Ph.D. Candidate",
-  institution: "Stanford University",
+  name: "Yunghee Lee",
+  title: "Research Officer",
+  institution: "Agency for Defense Development",
   // Note that links work in the description
-  description:
-    "I'm a final-year <a href='https://www.stanford.edu'>PhD candidate</a> working at the intersection of causal inference and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
-  email: "______@stanford.edu",
-  imageUrl:
-    "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
-  githubUsername: "janesmith",
-  linkedinUsername: "janesmith",
-  twitterUsername: "janesmith",
-  blogUrl: "https://",
-  cvUrl: "https://",
-  institutionUrl: "https://www.stanford.edu",
+  description: `
+    I am a Research Officer at the <a href='https://www.add.re.kr/eps'>Agency for Defense Development</a>, 
+    Korea's national defense R&D agency (similar to DARPA), and a First Lieutenant in the Republic of Korea Army. 
+    I received my B.S. in Computing with a minor in Physics from <a href='https://www.kaist.ac.kr/en/'>KAIST</a>.
+    <br> <br>
+    My research focuses on building accurate and affordable generative AI systems
+    capable of reasoning about real-world physical environments.
+  `,
+  email: "yhlee.add@gmail.com",
+  imageUrl: "/profile.png",
+  // imageUrl: "/profile2.jpg",
+  googleScholarUrl: "https://scholar.google.com/citations?user=yfWLZ_0AAAAJ",
+  githubUsername: "yhlee-add",
+  linkedinUsername: "yungheelee",
+  // twitterUsername: "janesmith",
+  // blogUrl: "https://",
+  // cvUrl: "https://",
+  institutionUrl: "https://www.add.re.kr/eps",
   // altName: "",
   // secretDescription: "I like dogs.",
 };

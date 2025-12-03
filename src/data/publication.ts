@@ -4,6 +4,7 @@ export interface Publication {
   title: string;
   authors: string;
   paperUrl?: string;
+  pageUrl?: string;
   codeUrl?: string;
   bibtex?: string;
   tldr?: string;
@@ -14,26 +15,36 @@ export interface Publication {
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
-    year: "2024",
+    year: "2025",
     conference: "NeurIPS",
-    title: "Scalable Causal Discovery in High-Dimensional Time Series",
-    authors: "Jane Smith, Sarah Johnson, Yue Zhang",
-    paperUrl: "https://arxiv.org/abs/2409.15476",
-    codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
+    title: "Tortoise and Hare Guidance: Accelerating Diffusion Model Inference with Multirate Integration",
+    authors: "Yunghee Lee, Byeonghyun Pak, Junwha Hong, Hoseong Kim",
+    paperUrl: "https://arxiv.org/pdf/2511.04117",
+    codeUrl: "https://github.com/yhlee-add/THG",
+    pageUrl: "https://yhlee-add.github.io/THG/",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
-    tldr: "Using causal discovery to find the causal structure of high-dimensional time series data.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    award: "🏆 Best Paper Award",
+    tldr: "Tortoise and Hare Guidance accelerates diffusion sampling by integrating the guidance term on a coarser timestep grid.",
+    // award: "🏆 Best Paper Award",
     // if you have an image in public/images, you can use it like this:
-    // imageUrl: "/images/publication-image.jpg"
+    imageUrl: "/thg.webp"
+  },
+  {
+    year: "2024",
+    conference: "CVPR Workshops (CVPRW)",
+    title: "LVS: A Learned Video Storage for Fast and Efficient Video Understanding",
+    authors: "Yunghee Lee, Jongse Park",
+    paperUrl: "https://openaccess.thecvf.com/content/CVPR2024W/ECV24/papers/Lee_LVS_A_Learned_Video_Storage_for_Fast_and_Efficient_Video_CVPRW_2024_paper.pdf",
+    // codeUrl: "https://github.com/jsmith/robust-causal-discovery",
+    imageUrl: "/lvs.png",
+    tldr: "LVS memoizes feature vectors for already-seen video clips and reuses them for future video understanding queries."
   },
   {
     year: "2023",
-    conference: "ICML",
-    title: "Robust Causal Discovery Under Distribution Shift",
-    authors: "Jane Smith, Xue Chen, Sarah Johnson",
-    paperUrl: "https://arxiv.org/abs/2302.13095",
-    codeUrl: "https://github.com/jsmith/robust-causal-discovery",
-  },
+    conference: "IEEE Robotics Autom. Lett. (RA-L)",
+    title: "HybGrasp: A Hybrid Learning-to-Adapt Architecture for Efficient Robot Grasping",
+    authors: "Jungwook Mun, Khang Truong Giang, Yunghee Lee, Nayoung Oh, Sejoon Huh, Min Kim, Sungho Jo",
+    paperUrl: "http://nmail.kaist.ac.kr/paper/ral24.pdf",
+    imageUrl: "/hybgrasp.png",
+    tldr: "HybGrasp efficiently learns to adapt to different gripper designs by refining the base pose with lightweight modules."
+  }
 ];
