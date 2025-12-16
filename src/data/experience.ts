@@ -28,7 +28,7 @@ export const experienceData: Experience[] = [
     company: "Computer Architecture and Systems Lab @ KAIST",
     description:
       ["Worked on efficient video understanding systems. [CVPRW 2024]"],
-    advisor: "Jongse Park",
+    advisor: "Prof. Jongse Park",
     companyUrl: "https://casyslab.kaist.ac.kr/",
   },
   {
@@ -39,7 +39,7 @@ export const experienceData: Experience[] = [
       [
         "Worked on robot grasping for various gripper designs. [RA-L 2023]",
       ],
-    advisor: "Sungho Jo",
+    advisor: "Prof. Sungho Jo",
     companyUrl: "http://nmail.kaist.ac.kr/",
   }
 ];
