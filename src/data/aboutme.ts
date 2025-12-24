@@ -38,7 +38,7 @@ export const aboutMe: AboutMe = {
   linkedinUsername: "yungheelee",
   // twitterUsername: "janesmith",
   // blogUrl: "https://",
-  // cvUrl: "https://",
+  cvUrl: "/cv.pdf",
   institutionUrl: "https://www.add.re.kr/eps",
   // altName: "",
   // secretDescription: "I like dogs.",
