@@ -10,13 +10,23 @@ export interface Experience {
 
 export const experienceData: Experience[] = [
   {
+    date: "Jul 2026 \u2013 Present",
+    title: "Research Collaboration with Harvard University (with Jaeyeon Kim)",
+    company: "Independent Research",
+    description:
+      [
+        "Decomposed the Fréchet distance exactly over interpretable feature directions. [Under review at ICLR 2027]",
+      ],
+  },
+  {
     date: "Jun 2024 \u2013 Present",
     title: "Research Officer",
     company: "Agency for Defense Development (ADD)",
     description:
       [
-        "Developed data storage and retrieval systems for surveillance UAVs.",
-        "Worked on diffusion models for infrared image generation. [NeurIPS 2025]",
+        "Accelerated diffusion-based synthetic data generation by ~30% with multirate integration. [NeurIPS 2025]",
+        "Found FID and ImageReward disagreeing on the synthetic data, which led to a study of FID. [ICMLW 2026]",
+        "Rebuilt the data collection software for surveillance UAVs, enabling longer flights.",
       ],
     advisor: "Dr. Hoseong Kim",
     manager: "Dr. Eunjin Koh",

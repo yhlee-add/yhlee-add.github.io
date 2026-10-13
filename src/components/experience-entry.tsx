@@ -23,7 +23,8 @@ export function ExperienceEntry({ experience }: { experience: Experience }) {
 
       <div className="col-span-3 flex flex-col">
         <p className="text-sm text-zinc-600 leading-relaxed">
-          {experience.title},
+          {experience.title}
+          {(experience.manager || experience.advisor) && ","}
           {experience.manager && (
             <span> Manager: {experience.manager}</span>
           )}

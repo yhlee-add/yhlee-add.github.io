@@ -15,6 +15,16 @@ export interface Publication {
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
+    year: "2027",
+    conference: "Under review at ICLR",
+    title: "What Does Fréchet Distance Measure? A Directional Decomposition",
+    authors: "Yunghee Lee, Jaeyeon Kim",
+    paperUrl: "https://arxiv.org/pdf/2610.05518",
+    codeUrl: "https://github.com/yhlee-add/directional-fd",
+    tldr: "We decompose the Fréchet distance along feature directions tied to interpretable concepts, revealing what it actually measures.",
+    imageUrl: "/directional-fd.png"
+  },
+  {
     year: "2026",
     conference: "ICML Workshop CTB",
     title: "Rethinking FID Through the Geometry of the Reference Dataset",
