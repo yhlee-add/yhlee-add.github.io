@@ -27,8 +27,8 @@ export const aboutMe: AboutMe = {
     Korea's national defense R&D agency (similar to DARPA), and a First Lieutenant in the Republic of Korea Army. 
     I received my B.S. in Computing with a minor in Physics from <a href='https://www.kaist.ac.kr/en/'>KAIST</a>.
     <br> <br>
-    My research aims to build physics-accurate and cost-efficient generative AI systems 
-    by combining principled mathematical analysis with practical algorithm design.
+    My research aims to build cost-efficient and reliably evaluated generative AI systems 
+    by uncovering the mathematical structure beneath the heuristics and metrics the field relies on.
   `,
   email: "yhlee.add@gmail.com",
   imageUrl: "/profile.png",

@@ -29,7 +29,7 @@ export const publicationData: Publication[] = [
     conference: "ICML Workshop CTB",
     title: "Rethinking FID Through the Geometry of the Reference Dataset",
     authors: "Yunghee Lee, Byeonghyun Pak",
-    paperUrl: "https://openreview.net/pdf?id=QDdHFImjpH",
+    paperUrl: "https://arxiv.org/pdf/2605.29335",
     // codeUrl: "https://github.com/yhlee-add/THG",
     // pageUrl: "https://yhlee-add.github.io/THG/",
     tldr: "Reference dataset geometry significantly moderates FID, so distributional metrics should be reported alongside dataset geometry.",
