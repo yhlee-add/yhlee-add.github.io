@@ -24,8 +24,8 @@ export const experienceData: Experience[] = [
     company: "Agency for Defense Development (ADD)",
     description:
       [
-        "Accelerated diffusion-based synthetic data generation by ~30% with multirate integration. [NeurIPS 2025]",
-        "Found FID and ImageReward disagreeing on the synthetic data, which led to a study of FID. [ICMLW 2026]",
+        "Accelerated diffusion-based synthetic data generation by ~30% with multirate integration (THG). [NeurIPS 2025]",
+        "Found FID and ImageReward disagreeing while evaluating THG, which led to a study of FID. [ICMLW 2026]",
         "Rebuilt the data collection software for surveillance UAVs, enabling longer flights.",
       ],
     advisor: "Dr. Hoseong Kim",
